@@ -1,64 +1,103 @@
 body {
-    background-color: #fff;
+  background-color: #fff;
+  background: url("../view/images/784181.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .no-display {
-    display: none;
+  display: none;
 }
 
 .center {
-    margin: auto;
-    padding: 10px 50px;
-    text-align: center;
-    font-size: 14px;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
 }
 
 .title {
-    font-size: 30px;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: #262626;
+  /* font-size: 30px; */
+  font-size: 3rem;
+  /* margin-top: 1em; */
+  margin-bottom: 1rem;
+  /* color: #262626; */
+  color: #fff;
+  font-weight: 700;
 }
 
 .content {
-    margin-top: 10em;
+  margin-top: 2rem;
 }
 
 .analyze {
-    margin-top: 5em;
+  margin-top: 5em;
 }
 
 .upload-label {
-    padding: 10px;
-    font-size: 12px;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
 }
 
 .result-label {
-    margin-top: 0.5em;
-    padding: 10px;
-    font-size: 13px;
+  margin-top: 0.5em;
+  padding: 10px;
+  font-size: 13px;
 }
 
 button.choose-file-button {
-    width: 200px;
-    height: 40px;
-    border-radius: 2px;
-    background-color: #ffffff;
-    border: solid 1px #7052CB;
-    font-size: 13px;
-    color: #7052CB;
+  width: 200px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: transparent;
+  /* border: solid 1px #7052cb; */
+  /* border: 1px solid #3e82b7; */
+  border: 2px solid #fff;
+  font-size: 1rem;
+  /* color: #7052cb; */
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+button.choose-file-button:hover {
+  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
 }
 
 button.analyze-button {
-    width: 200px;
-    height: 40px;
-    border: solid 1px #7052CB;
-    border-radius: 2px;
-    background-color: #7052CB;
-    font-size: 13px;
-    color: #ffffff;
+  width: 200px;
+  height: 40px;
+  /* border: solid 1px #7052cb; */
+  border: 2px solid #fff;
+  border-radius: 2px;
+  /* background-color: #7052CB; */
+  background-color: transparent;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+button.analyze-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 button:focus {
-    outline: 0;
+  outline: 0;
+}
+
+.typewrite {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+#image-picked {
+  border: 2px solid #fff;
 }
